@@ -16,6 +16,8 @@ pnpm-debug.log*
 # Editor directories and files
 .idea
 .vscode
+# npx repoatlas analyze . 产生的缓存
+.repoatlas
 *.suo
 *.ntvs*
 *.njsproj

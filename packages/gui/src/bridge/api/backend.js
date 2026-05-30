@@ -191,6 +191,12 @@ const localApi = {
   },
 }
 
+/**
+ * 递归遍历对象，找出所有函数，将函数路径存入 list
+ * @param {[funcPath: str]} list 可用的函数
+ * @param {obj} parent 被查找的对象
+ * @param {str} parentKey 父对象名
+ */
 function _deepFindFunction (list, parent, parentKey) {
   for (const key in parent) {
     const item = parent[key]
